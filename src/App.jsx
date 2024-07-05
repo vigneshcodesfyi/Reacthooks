@@ -11,6 +11,8 @@ import Home from './page/Home'
 import Contact from './page/Contact'
 import Navigation from './components/Navigation'
 import User from './page/User'
+import List from './components/List'
+import Test from './components/Test'
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
   return (
     <>
     <p>Hellothis si user</p>
+
+    <List/> 
 
 <BrowserRouter>
 <Navigation/>
@@ -39,6 +43,10 @@ function App() {
 </Routes>
 </BrowserRouter>
 
+
+
+
+<Test/>
 
 </>
    
